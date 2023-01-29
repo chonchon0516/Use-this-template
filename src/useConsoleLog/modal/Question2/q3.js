@@ -1,8 +1,8 @@
 //console.logを使ってみよう！
-_____.___('_____');
+console.log('Hello');
 
 const name = "Json Taro";
-_____.___(____);
+console.log(name);
 
 const fruits = [
   'banana',
@@ -10,16 +10,16 @@ const fruits = [
   'orange',
   'cherry'
 ];
-_____.___(_____);
+console.log(fruits);
 
 
 //ラベルをつけてみよう！！
 const flag = true;
-_____.___(_____);
+console.log("flag", flag);
 
 const object = {
   a: 12,
   b: 30,
   c: 40
 };
-_____.___(_____);
+console.log("object", object);
