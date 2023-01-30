@@ -4,5 +4,5 @@
 const signInButton = document.querySelector('.open-modal');
 
 signInButton.addEventListener('click', (event) => {
-  console.log("___");
+  console.log("hoge");
 });
