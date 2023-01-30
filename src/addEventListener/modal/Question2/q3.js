@@ -1,8 +1,8 @@
 //SignInボタンクリック時に「hoge」と出力してください
 // __の箇所に適切なものを書きましょう！
 
-const signInButton = document.querySelector('___');
+const signInButton = document.querySelector('.open-modal');
 
-_____.addEventListener('click', (event) => {
-  console.log("___");
+signInButton.addEventListener('click', (event) => {
+  console.log("hoge");
 });
