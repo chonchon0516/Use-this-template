@@ -1,4 +1,4 @@
-const japaneseList = document.querySelector('_____');
+const japaneseList = document.querySelector('.japanese-list');
 
 const firstRow = document.createElement('li');
 firstRow.textContent = 'あいうえお';
