@@ -1,9 +1,9 @@
-const japaneseList = document.querySelector('_____');
+const japaneseList = document.querySelector('.japanese-list');
 
-const firstRow = document.createElement('__');
-firstRow._____ = 'あいうえお';
+const firstRow = document.createElement('li');
+firstRow.textContent = 'あいうえお';
 japaneseList.insertBefore(firstRow, japaneseList.firstChild);
 
-const lastRow = document.createElement('__');
-lastRow._____ = 'たちつてと';
+const lastRow = document.createElement('li');
+lastRow.textContent = 'たちつてと';
 japaneseList.append(lastRow);
