@@ -1,2 +1,2 @@
-setTimeout(() => console.log(1), 500);
+setTimeout(() => console.log(1), 2000);
 console.log(2);
