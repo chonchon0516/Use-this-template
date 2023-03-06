@@ -5,15 +5,15 @@ const excuteButton = document.querySelector('.excute');
 
 excuteButton.addEventListener('click', (event) => {
 
-  const fetchData = _____() => {
-    return new _____((resolve, reject) => {
+  const fetchData = async() => {
+    return new Promise((resolve, reject) => {
       setTimeout(() => {
         resolve("ここが２番目に実行される。(3秒後)");
       }, 3000);
     });
   };
 
-  const fetchResult = _____() => {
+  const fetchResult = async() => {
     const result = await fetchData();
     console.log("result:", result);
   };
