@@ -5,7 +5,7 @@ const excuteButton = document.querySelector('.excute');
 
 excuteButton.addEventListener('click', (event) => {
 
-  const fetchData = _____() => {
+  const fetchData = async() => {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         resolve("ここが２番目に実行される。(3秒後)");
